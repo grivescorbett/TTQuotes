@@ -1,0 +1,6 @@
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="quote in quotes">
+  	<p>{{quote.Body}}</p>
+  	<p><a href="#" ng-click="incScore(quote)">+</a>&nbsp;{{quote.Score}}&nbsp;<a href="#" ng-click="decScore(quote)">-</a></p>
+  </li>
+</ul>
